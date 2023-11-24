@@ -27,4 +27,20 @@ npm run dev
 ```sh
 npm run build
 ```
+#### vue路由的实现方法
 ![](步骤.png)
+#### github 更新提交命令
+```shell
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/2022ac/Ideas_Prictises.git
+  git push -u origin main
+```
+…or push an existing repository from the command line
+```shell
+git remote add origin https://github.com/2022ac/Ideas_Prictises.git
+git branch -M main
+git push -u origin main
+```

@@ -20,3 +20,13 @@ export const userLoginService=(loginData)=>{
 export const userInfoService=()=>{
     return request.get('/user/userInfo');
 }
+// 修改个人信息
+export const userInfoUpdateService=(userInfoData)=>{
+    return request.put('/user/update',userInfoData);
+}
+// 修改头像
+export const userAvatarUpdateService=(avatarUrl)=>{
+    const params=new URLSearchParams();
+    params.append('avatar',avatarUrl);
+    return reslut=request.patch('/user/updateAvatar',params);
+}
